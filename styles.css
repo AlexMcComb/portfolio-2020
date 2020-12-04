@@ -260,8 +260,6 @@ a {
   padding: 20px 10px;
   height: 100vh;
   background-attachment: fixed, fixed;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
-    url(./images/header.jpg);
   background-size: auto, cover;
 }
 
