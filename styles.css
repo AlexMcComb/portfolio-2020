@@ -259,8 +259,7 @@ a {
 .header-container {
   padding: 20px 10px;
   height: 100vh;
-  background-attachment: fixed, fixed;
-  background-size: auto, cover;
+  background-color: var(--blue);
 }
 
 .header-text {

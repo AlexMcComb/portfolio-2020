@@ -4,30 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" type="text/css" />
-    <script>
-      const preloader = () => {
-        if (document.querySelector) {
-          document.querySelector(".header-container").style.background =
-            "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(./images/header.jpg)";
-        }
-      };
-
-      const addLoadEvent = (preloader) => {
-        const oldonload = window.onload;
-        if (typeof window.onload != "function") {
-          window.onload = preloader;
-        } else {
-          window.onload = function () {
-            if (oldonload) {
-              oldonload();
-            }
-            preloader();
-          };
-        }
-      };
-
-      addLoadEvent(preloader);
-    </script>
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"
